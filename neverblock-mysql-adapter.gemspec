@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = "neverblock-mysql-adapter"
-  s.version  = "0.1"
-  s.date     = "2009-07-18"
+  s.version  = "0.1.1"
+  s.date     = "2009-10-13"
   s.summary  = "MySQL Asyncronous AR connection adapter"
   s.email    = "oldmoe@gmail.com"
   s.homepage = "http://github.com/michaelyta/neverblock-mysql-adapter"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   ]
 #  s.rdoc_options = ["--main", "README"]
 #  s.extra_rdoc_files = ["README"]
-  s.add_dependency('neverblock', '>= 1.0')
+  s.add_dependency('espace-neverblock', '>= 0.1.0')
   s.add_dependency('mysqlplus', '>=0.1.1')
 end
 
